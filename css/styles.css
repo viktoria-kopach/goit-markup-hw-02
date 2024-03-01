@@ -17,47 +17,101 @@ ul {
 }
 body {
 font-family: Roboto,sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 140%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
     color: #434455;
+    background-color: #FFFFFF;
 }
+
+
 h1{
         font-weight: 700;
         font-size: 56px;
         line-height: 107%;
         letter-spacing: 0.02em;
+        color: #fff;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+/* задати класи h2 h3  */
+
+
+
+.header {
+   
 }
 
+.header-nav {
+   color: #2E2F42; 
+}
 
+.header-logo {
+font-family: Raleway,sans-serif;
+font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
 
+.header-logo-span {
+color: #2e2f42;
+}
 
-.header {}
+.header-menu-list {
 
-.header-nav {}
+}
 
-.header-logo {}
+.header-menu-item {
 
-.header-logo-span {}
+}
 
-.header-menu-list {}
+.header-menu-link {
+}
 
-.header-menu-item {}
+.header-contacts {
+   font-style: normal; 
+}
 
-.header-menu-link {}
+.header-contact {
+}
 
-.header-contacts {}
+.header-contact-link {
+}
 
-.header-contact {}
-
-.header-contact-link {}
 /* Верхнє синє вікно */
 
-.hero {}
+.hero {
+background: #2e2f42;
+}
 
-.hero-title {}
+.hero-title {
+    text-align: center;
+}
 
-.hero-button {}
+.hero-button {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #fff;
+        background: #4d5ae5;
+}
 /* Переваги */
 
 .advantages {}
@@ -73,14 +127,17 @@ h1{
 .advantage-item-text {}
 /* Наша команда */
 
-.ourteam {}
+.ourteam {
+    background: #f4f4fd;
+}
 
 .ourteam-title {}
 
 .ourteam-list {}
 
-.ourteam-item {}
-
+.ourteam-item {
+    background: #fff;
+    }
 .ourteam-list-item-img {}
 
 .ourteam-item-title {}
@@ -94,7 +151,9 @@ h1{
 
 .ourportfolio-list {}
 
-.ourportfolio-item {}
+.ourportfolio-item {
+    background: #fff;
+}
 
 .ourportfolio-list-item-img {}
 
@@ -103,10 +162,20 @@ h1{
 .ourportfolio-item-text {}
 /* Нижня частина сайту */
 
-.footer {}
+.footer {
+    background: #2E2F42;
+    color: #f4f4fd;
+}
+.footer-logo {
+    font-family: Raleway, sans-serif;
+        color: #4D5AE5;
+        letter-spacing: 0.03em;
+        line-height: 117%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.footer-logo-span {
+}
 
-.footer-logo {}
-
-.footer-logo-span {}
-
-.footer-text {}
+.footer-text {
+}
