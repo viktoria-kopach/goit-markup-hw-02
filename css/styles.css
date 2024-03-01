@@ -106,12 +106,18 @@ background: #2e2f42;
 
 .hero-button {
         font-weight: 500;
-        font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.04em;
         color: #fff;
-        background: #4d5ae5;
+        background-color: #4d5ae5;
+        cursor: pointer;
 }
+button:hover,
+button:focus {
+    background-color: #404bbf;
+}
+
+
 /* Переваги */
 
 .advantages {}
@@ -124,14 +130,18 @@ background: #2e2f42;
 
 .advantage-item-title {}
 
-.advantage-item-text {}
+.advantage-item-text {
+    letter-spacing: 0.02em;
+}
 /* Наша команда */
 
 .ourteam {
     background: #f4f4fd;
 }
 
-.ourteam-title {}
+.ourteam-title {
+    text-align: center;
+}
 
 .ourteam-list {}
 
@@ -142,12 +152,16 @@ background: #2e2f42;
 
 .ourteam-item-title {}
 
-.ourteam-item-text {}
+.ourteam-item-text {
+    letter-spacing: 0.02em;
+}
 /* Портфоліо команди */
 
 .ourportfolio {}
 
-.ourportfolio-tite {}
+.ourportfolio-tite {
+    text-align: center; 
+}
 
 .ourportfolio-list {}
 
