@@ -61,12 +61,12 @@ h3 {
 
 .header-logo {
 font-family: Raleway,sans-serif;
+color: #4D5AE5;
 font-weight: 700;
+letter-spacing: 0.03em;
     font-size: 18px;
     line-height: 117%;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
 }
 
 .header-logo-span {
@@ -84,18 +84,20 @@ color: #2e2f42;
 .header-menu-link {
 }
 
+/* Адреса хедера */
 .header-contacts {
-   font-style: normal; 
 }
 
-.header-contact {
+.header-contacts-list {
+    font-style: normal;
 }
-.header-contact:hover
-.header-contact:focus {
-    content: #404bbf;
-}
-.header-contact-link {
-}
+
+.header-contacts-item {}
+
+.header-contacts-link:hover
+ .header-contacts-link:focus {
+    color: #404bbf;
+ }
 
 /* Верхнє синє вікно */
 
