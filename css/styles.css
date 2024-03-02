@@ -86,16 +86,16 @@ color: #2e2f42;
 
 /* Адреса хедера */
 .header-contacts {
+    font-style: normal;
 }
 
 .header-contacts-list {
-    font-style: normal;
 }
 
 .header-contacts-item {}
 
 .header-contacts-link:hover
- .header-contacts-link:focus {
+.header-contacts-link:focus {
     color: #404bbf;
  }
 
