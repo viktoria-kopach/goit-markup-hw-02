@@ -94,11 +94,11 @@ color: #2e2f42;
 
 .header-contacts-list {
 }
+.header-contacts-item {
 
-.header-contacts-item {}
-
-.header-contacts-item:hover,
-.header-contacts-item:focus {
+}
+.header-contacts-link:hover,
+.header-contacts-link:focus {
     color: #404bbf;
  }
 
