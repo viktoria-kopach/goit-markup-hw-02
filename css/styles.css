@@ -74,7 +74,7 @@ color: #2e2f42;
 }
 
 .header-menu-list {
-
+ font-weight: 500;
 }
 
 .header-menu-item {
@@ -90,7 +90,10 @@ color: #2e2f42;
 
 .header-contact {
 }
-
+.header-contact:hover
+.header-contact:focus {
+    content: #404bbf;
+}
 .header-contact-link {
 }
 
@@ -148,7 +151,8 @@ button:focus {
 .ourteam-item {
     background: #fff;
     }
-.ourteam-list-item-img {}
+.ourteam-list-item-img {
+}
 
 .ourteam-item-title {}
 
@@ -159,8 +163,8 @@ button:focus {
 
 .ourportfolio {}
 
-.ourportfolio-tite {
-    text-align: center; 
+.ourportfolio-title {
+    text-align: center;
 }
 
 .ourportfolio-list {}
@@ -169,11 +173,15 @@ button:focus {
     background: #fff;
 }
 
-.ourportfolio-list-item-img {}
+.ourportfolio-list-item-img {
+    width: 360px;
+}
 
 .ourportfolio-item-title {}
 
-.ourportfolio-item-text {}
+.ourportfolio-item-text {
+    letter-spacing: 0.02em;
+}
 /* Нижня частина сайту */
 
 .footer {
