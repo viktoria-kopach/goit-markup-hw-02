@@ -22,6 +22,7 @@ font-family: Roboto,sans-serif;
     line-height: 150%;
     color: #434455;
     background-color: #FFFFFF;
+    letter-spacing: 0.02em;
 }
 
 
@@ -47,7 +48,7 @@ h3 {
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-/* задати класи h2 h3  */
+
 
 
 
@@ -81,7 +82,9 @@ color: #2e2f42;
 
 }
 
-.header-menu-link {
+.header-menu-link:hover,
+ .header-menu-link:focus{
+    color: #404bbf;
 }
 
 /* Адреса хедера */
@@ -94,7 +97,7 @@ color: #2e2f42;
 
 .header-contacts-item {}
 
-.header-contacts-item:hover
+.header-contacts-item:hover,
 .header-contacts-item:focus {
     color: #404bbf;
  }
@@ -176,7 +179,6 @@ button:focus {
 }
 
 .ourportfolio-list-item-img {
-    width: 360px;
 }
 
 .ourportfolio-item-title {}
